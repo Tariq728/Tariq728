@@ -3,23 +3,18 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Tariq Anwar | Energy Engineer & Tech Enthusiast</title>
-    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <title>Tariq Anwar | Energy Engineer</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="professional-style.css">
 </head>
 <body>
-    <!-- Background Effects -->
-    <div class="grid-background"></div>
-    <div class="glow glow-1"></div>
-    <div class="glow glow-2"></div>
-
     <!-- Navigation -->
-    <nav>
+    <nav class="navbar">
         <div class="nav-container">
-            <div class="logo">TARIQ ANWAR</div>
+            <div class="logo">Tariq Anwar</div>
             <ul class="nav-menu">
-                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
                 <li><a href="#experience">Experience</a></li>
                 <li><a href="#projects">Projects</a></li>
                 <li><a href="#skills">Skills</a></li>
@@ -31,56 +26,125 @@
         </div>
     </nav>
 
-    <!-- Hero Section -->
-    <section class="hero" id="home">
+    <!-- Hero Section with Photo -->
+    <section class="hero" id="about">
         <div class="hero-container">
             <div class="hero-content">
-                <div class="hero-badge">Energy Engineer • Tech Enthusiast</div>
-                <h1>Building Sustainable Future with Technology</h1>
-                <h2>Renewable Energy Systems & AI Exploration</h2>
-                <p class="hero-description">
-                    Master's in Energy Engineering from UMass Lowell. A passionate individual with lots of 
-                    questions and curiosity about AI, machine learning, and sustainable technology. 
-                    Eager to learn, grow, and contribute to innovative solutions in energy engineering 
-                    and emerging technologies.
-                </p>
-                <div class="cta-group">
-                    <a href="#projects" class="btn btn-primary">
-                        <i class="fas fa-rocket"></i> View My Work
-                    </a>
-                    <a href="#contact" class="btn btn-outline">
-                        <i class="fas fa-envelope"></i> Get in Touch
-                    </a>
+                <div class="hero-left">
+                    <h1>Tariq Anwar</h1>
+                    <h2>Energy Engineer | MS, UMass Lowell</h2>
+                    <p class="hero-tagline">
+                        Passionate about renewable energy systems, solar design, and quality engineering. 
+                        Exploring AI and technology to create innovative solutions for sustainable energy challenges.
+                    </p>
+                    <div class="hero-stats">
+                        <div class="stat">
+                            <div class="stat-number">MS</div>
+                            <div class="stat-label">Energy Engineering</div>
+                        </div>
+                        <div class="stat">
+                            <div class="stat-number">3.32</div>
+                            <div class="stat-label">GPA</div>
+                        </div>
+                        <div class="stat">
+                            <div class="stat-number">2025</div>
+                            <div class="stat-label">Graduate</div>
+                        </div>
+                    </div>
+                    <div class="cta-buttons">
+                        <a href="#contact" class="btn btn-primary">
+                            <i class="fas fa-envelope"></i> Get in Touch
+                        </a>
+                        <a href="https://studentuml-my.sharepoint.com/:b:/g/personal/tariqanwar_melethil_student_uml_edu/ETSkRE_CRQ9DrcGG1F4EMBwB9fqGXwblvqqlhpag2a1LQQ?e=YLoWvH" class="btn btn-outline" target="_blank">
+                            <i class="fas fa-download"></i> Download CV
+                        </a>
+                    </div>
+                    <div class="social-links">
+                        <a href="https://github.com/Tariq728" target="_blank" title="GitHub">
+                            <i class="fab fa-github"></i>
+                        </a>
+                        <a href="https://www.linkedin.com/in/tariqanwar2000" target="_blank" title="LinkedIn">
+                            <i class="fab fa-linkedin"></i>
+                        </a>
+                        <a href="mailto:tariqanwar917@gmail.com" title="Email">
+                            <i class="fas fa-envelope"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="hero-right">
+                    <div class="photo-container">
+                        <div class="photo-frame">
+                            <!-- Replace 'your-photo.jpg' with your actual image filename -->
+                            <img src="your-photo.jpg" alt="Tariq Anwar at UMass Lowell" class="profile-photo">
+                        </div>
+                        <div class="photo-badge">
+                            <i class="fas fa-graduation-cap"></i>
+                            <span>UMass Lowell</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="about-section">
+        <div class="container">
+            <div class="about-content">
+                <div class="about-text">
+                    <h2 class="section-title">About Me</h2>
+                    <p>
+                        I'm a Master's candidate in Energy Engineering at the University of Massachusetts Lowell, 
+                        specializing in renewable energy systems, solar PV design, and quality engineering. My passion 
+                        lies at the intersection of sustainable energy and emerging technologies.
+                    </p>
+                    <p>
+                        During my internship at Saft America, I gained hands-on experience in quality engineering for 
+                        energy storage systems, applying LEAN Six Sigma principles and conducting root cause analysis. 
+                        I've also developed and evaluated solar PV systems, microgrids, and battery storage solutions 
+                        through academic and applied projects.
+                    </p>
+                    <p>
+                        I'm eager to learn, ask questions, and grow in the field of energy engineering. I'm also 
+                        exploring AI and machine learning technologies, building projects to understand how these 
+                        tools can enhance sustainable energy solutions.
+                    </p>
+                </div>
+                <div class="about-highlights">
+                    <div class="highlight-card">
+                        <i class="fas fa-lightbulb"></i>
+                        <h3>Research Interests</h3>
+                        <p>Energy justice, climate action, urban building decarbonization, and energy poverty solutions</p>
+                    </div>
+                    <div class="highlight-card">
+                        <i class="fas fa-certificate"></i>
+                        <h3>Certifications</h3>
+                        <p>Python Programming (Coursera), Automobile Systems Familiarization</p>
+                    </div>
+                    <div class="highlight-card">
+                        <i class="fas fa-trophy"></i>
+                        <h3>Key Strengths</h3>
+                        <p>Quality engineering, LEAN Six Sigma, solar design, analytical problem-solving</p>
+                    </div>
                 </div>
             </div>
         </div>
     </section>
 
     <!-- Experience Section -->
-    <section id="experience">
+    <section class="experience-section" id="experience">
         <div class="container">
-            <div class="section-header fade-up">
-                <div class="section-tag">Career Journey</div>
-                <h2 class="section-title">Experience</h2>
-                <p class="section-description">
-                    Combining hands-on industry experience with cutting-edge academic research
-                </p>
-            </div>
-
-            <div class="experience-grid">
-                <div class="experience-card fade-up">
-                    <div class="experience-header">
-                        <div>
-                            <h3 class="experience-title">Quality Engineering Intern</h3>
-                            <p class="experience-company">Saft America - ESS Project</p>
-                            <p style="color: var(--text-secondary); font-size: 0.95rem;">Jacksonville, FL</p>
-                        </div>
-                        <div class="experience-date">Summer 2024</div>
-                    </div>
-                    <div class="experience-description">
+            <h2 class="section-title">Professional Experience</h2>
+            <div class="timeline">
+                <div class="timeline-item">
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                        <div class="timeline-date">Summer 2024</div>
+                        <h3>Quality Engineering Intern</h3>
+                        <h4>Saft America - ESS Project | Jacksonville, FL</h4>
                         <ul>
                             <li>Assisted in setting up energy storage system containers under electrical engineer guidance</li>
-                            <li>Conducted CAT SMU board inspections and performed 8D root cause analysis, reducing defects</li>
+                            <li>Conducted CAT SMU board inspections and performed 8D root cause analysis</li>
                             <li>Developed FMEA reports and crimping standards applying LEAN Six Sigma principles</li>
                             <li>Assisted in Factory Acceptance Test (FAT) for battery modules</li>
                             <li>Collaborated with IT on Automated Training System development</li>
@@ -88,39 +152,37 @@
                     </div>
                 </div>
 
-                <div class="experience-card fade-up">
-                    <div class="experience-header">
-                        <div>
-                            <h3 class="experience-title">Solar PV Design Feasibility Project</h3>
-                            <p class="experience-company">586 Manley St, West Bridgewater, MA</p>
-                        </div>
-                        <div class="experience-date">Fall 2024</div>
-                    </div>
-                    <div class="experience-description">
+                <div class="timeline-item">
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                        <div class="timeline-date">Fall 2024</div>
+                        <h3>Solar PV Design Feasibility Project</h3>
+                        <h4>West Bridgewater, MA</h4>
                         <ul>
                             <li>Designed 513.4 kWdc rooftop system projecting 671,300 kWh/year production</li>
-                            <li>Achieved 52.4% energy offset with 828 solar panels and ballasted racking</li>
+                            <li>Achieved 52.4% energy offset with 828 solar panels</li>
                             <li>Evaluated ROI and site conditions using Helioscope and Excel</li>
-                            <li>Modeled performance scenarios for cost-effective optimization</li>
                         </ul>
+                        <a href="https://github.com/Tariq728/Tariq728/blob/main/data/diff/Group%202_Feasibility%20Report_12-08-24_Final.pdf" target="_blank" class="project-link">
+                            <i class="fas fa-file-pdf"></i> View Report
+                        </a>
                     </div>
                 </div>
 
-                <div class="experience-card fade-up">
-                    <div class="experience-header">
-                        <div>
-                            <h3 class="experience-title">Research: Resiliency & Sustainability Study</h3>
-                            <p class="experience-company">Boston Multi-Unit Residential Buildings</p>
-                        </div>
-                        <div class="experience-date">Spring 2025</div>
-                    </div>
-                    <div class="experience-description">
+                <div class="timeline-item">
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                        <div class="timeline-date">Spring 2025</div>
+                        <h3>Resiliency & Sustainability Research</h3>
+                        <h4>Boston Multi-Unit Residential Buildings</h4>
                         <ul>
                             <li>Assessed BERDO compliance and CES alignment for building decarbonization</li>
-                            <li>Analyzed building energy data: heating/cooling trends, GHG emissions</li>
-                            <li>Researched financial incentives (Mass Save, PACE, federal tax credits)</li>
-                            <li>Conducted ROI analysis showing 30-50% emission reductions with <2 year payback</li>
+                            <li>Analyzed building energy data and GHG emissions</li>
+                            <li>Conducted ROI analysis showing 30-50% emission reductions</li>
                         </ul>
+                        <a href="https://github.com/Tariq728/Tariq728/blob/main/data/diff/Final_REPORT_%20Group_3_EEW.pdf" target="_blank" class="project-link">
+                            <i class="fas fa-file-pdf"></i> View Report
+                        </a>
                     </div>
                 </div>
             </div>
@@ -128,138 +190,92 @@
     </section>
 
     <!-- Projects Section -->
-    <section id="projects">
+    <section class="projects-section" id="projects">
         <div class="container">
-            <div class="section-header fade-up">
-                <div class="section-tag">Featured Work</div>
-                <h2 class="section-title">Projects</h2>
-                <p class="section-description">
-                    Exploring energy engineering and technology through hands-on learning
-                </p>
-            </div>
-
+            <h2 class="section-title">Featured Projects</h2>
             <div class="projects-grid">
-                <div class="project-card fade-up">
-                    <div class="project-icon">
-                        <i class="fas fa-shield-alt"></i>
+                <div class="project-card featured">
+                    <div class="project-header">
+                        <div class="project-icon">
+                            <i class="fas fa-shield-alt"></i>
+                        </div>
+                        <span class="project-badge">In Development</span>
                     </div>
-                    <h3 class="project-title">TrustInterview</h3>
-                    <p class="project-description">
-                        Learning project exploring AI-powered interview fraud detection for remote hiring. 
-                        Experimenting with machine learning to detect deepfakes, AI-assisted responses, 
-                        and behavioral anomalies. Building this to learn about AI/ML, computer vision, 
-                        and real-time data processing.
-                    </p>
+                    <h3>TrustInterview</h3>
+                    <p>AI-powered interview fraud detection system - a learning project exploring machine learning, 
+                    computer vision, and real-time data processing for remote hiring integrity.</p>
                     <div class="project-tags">
-                        <span class="tag">React</span>
-                        <span class="tag">Node.js</span>
-                        <span class="tag">TensorFlow.js</span>
-                        <span class="tag">Python</span>
-                        <span class="tag">WebRTC</span>
-                        <span class="tag">PostgreSQL</span>
+                        <span>React</span>
+                        <span>Python</span>
+                        <span>TensorFlow</span>
+                        <span>WebRTC</span>
                     </div>
                     <div class="project-links">
-                        <a href="https://github.com/Tariq728/TrustInterview" class="btn btn-primary" target="_blank">
+                        <a href="https://github.com/Tariq728/TrustInterview" target="_blank">
                             <i class="fab fa-github"></i> GitHub
                         </a>
-                        <a href="#" class="btn btn-outline">
-                            <i class="fas fa-external-link-alt"></i> Learn More
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-header">
+                        <div class="project-icon">
+                            <i class="fas fa-gamepad"></i>
+                        </div>
+                    </div>
+                    <h3>Snake Game</h3>
+                    <p>Classic Snake Game built with Python's Turtle graphics. A learning project to understand 
+                    object-oriented programming, event handling, and game development concepts.</p>
+                    <div class="project-tags">
+                        <span>Python</span>
+                        <span>OOP</span>
+                        <span>Game Dev</span>
+                    </div>
+                    <div class="project-links">
+                        <a href="https://github.com/Tariq728/Snake_Game" target="_blank">
+                            <i class="fab fa-github"></i> GitHub
                         </a>
                     </div>
                 </div>
 
-                <div class="project-card fade-up">
-                    <div class="project-icon">
-                        <i class="fas fa-gamepad"></i>
+                <div class="project-card">
+                    <div class="project-header">
+                        <div class="project-icon">
+                            <i class="fas fa-solar-panel"></i>
+                        </div>
                     </div>
-                    <h3 class="project-title">Snake Game</h3>
-                    <p class="project-description">
-                        Classic Snake Game built with Python's Turtle graphics library as a learning project. 
-                        Features smooth animation, collision detection, score tracking, and growing mechanism. 
-                        Helped me understand object-oriented programming, event handling, and game loops.
-                    </p>
+                    <h3>Perovskite Solar Cell Research</h3>
+                    <p>Student research investigating perovskite degradation mechanisms and their application to 
+                    battery electrode stability and cycle life optimization.</p>
                     <div class="project-tags">
-                        <span class="tag">Python</span>
-                        <span class="tag">Turtle Graphics</span>
-                        <span class="tag">Game Development</span>
-                        <span class="tag">OOP</span>
-                        <span class="tag">Collision Detection</span>
+                        <span>Research</span>
+                        <span>MATLAB</span>
+                        <span>Solar Energy</span>
                     </div>
                     <div class="project-links">
-                        <a href="https://github.com/Tariq728/Snake_Game" class="btn btn-primary" target="_blank">
-                            <i class="fab fa-github"></i> View Code
-                        </a>
-                        <a href="https://github.com/Tariq728/Snake_Game#readme" class="btn btn-outline" target="_blank">
-                            <i class="fas fa-book"></i> Documentation
+                        <a href="https://github.com/Tariq728/Tariq728/blob/main/data/diff/Perovskite%20Solar%20cells%20Project%20(1).pdf" target="_blank">
+                            <i class="fas fa-file-pdf"></i> Paper
                         </a>
                     </div>
                 </div>
 
-                <div class="project-card fade-up">
-                    <div class="project-icon">
-                        <i class="fas fa-solar-panel"></i>
+                <div class="project-card">
+                    <div class="project-header">
+                        <div class="project-icon">
+                            <i class="fas fa-wind"></i>
+                        </div>
                     </div>
-                    <h3 class="project-title">Perovskite Solar Cell Stability</h3>
-                    <p class="project-description">
-                        Student research project investigating perovskite degradation mechanisms. 
-                        Analyzed Br substitution for humidity resistance and phase integrity. 
-                        Findings applicable to battery electrode stability and cycle life optimization.
-                    </p>
+                    <h3>Wind Turbine Optimization</h3>
+                    <p>Evaluated predictive maintenance strategies to increase turbine availability and system 
+                    reliability for high-uptime operations.</p>
                     <div class="project-tags">
-                        <span class="tag">Materials Science</span>
-                        <span class="tag">MATLAB</span>
-                        <span class="tag">Research</span>
-                        <span class="tag">Solar Energy</span>
+                        <span>Wind Energy</span>
+                        <span>Optimization</span>
+                        <span>Maintenance</span>
                     </div>
                     <div class="project-links">
-                        <a href="https://github.com/Tariq728/Tariq728/blob/main/data/diff/Perovskite%20Solar%20cells%20Project%20(1).pdf" class="btn btn-outline" target="_blank">
-                            <i class="fas fa-file-pdf"></i> View Paper
-                        </a>
-                    </div>
-                </div>
-
-                <div class="project-card fade-up">
-                    <div class="project-icon">
-                        <i class="fas fa-wind"></i>
-                    </div>
-                    <h3 class="project-title">Wind Turbine Optimization</h3>
-                    <p class="project-description">
-                        Evaluated predictive maintenance strategies to increase turbine availability. 
-                        Addressed challenges like icing and corrosion. Proposed optimization improvements 
-                        for system reliability and high-uptime manufacturing processes.
-                    </p>
-                    <div class="project-tags">
-                        <span class="tag">Wind Energy</span>
-                        <span class="tag">Maintenance</span>
-                        <span class="tag">Optimization</span>
-                        <span class="tag">Quality Engineering</span>
-                    </div>
-                    <div class="project-links">
-                        <a href="https://github.com/Tariq728/Tariq728/blob/main/data/diff/Wind%20Turbine%20O%26M%20(Operation%20and%20Maintenance)%20practices%20and%20optimization.pdf" class="btn btn-outline" target="_blank">
-                            <i class="fas fa-file-pdf"></i> View Study
-                        </a>
-                    </div>
-                </div>
-
-                <div class="project-card fade-up">
-                    <div class="project-icon">
-                        <i class="fas fa-chart-line"></i>
-                    </div>
-                    <h3 class="project-title">Colorado Solar Market Analysis</h3>
-                    <p class="project-description">
-                        Comprehensive analysis of Colorado's solar PV industry including energy landscape, 
-                        generation mix, and competitive market. Developed market penetration strategy for 
-                        new solar companies leveraging HOAs and state/federal incentives.
-                    </p>
-                    <div class="project-tags">
-                        <span class="tag">Market Analysis</span>
-                        <span class="tag">Solar PV</span>
-                        <span class="tag">Strategy</span>
-                        <span class="tag">Business Development</span>
-                    </div>
-                    <div class="project-links">
-                        <a href="https://github.com/Tariq728/Tariq728/blob/main/data/diff/Colorado_Tariq_Anwar%20(2).pdf" class="btn btn-outline" target="_blank">
-                            <i class="fas fa-file-pdf"></i> Read Analysis
+                        <a href="https://github.com/Tariq728/Tariq728/blob/main/data/diff/Wind%20Turbine%20O%26M%20(Operation%20and%20Maintenance)%20practices%20and%20optimization.pdf" target="_blank">
+                            <i class="fas fa-file-pdf"></i> Study
                         </a>
                     </div>
                 </div>
@@ -268,72 +284,53 @@
     </section>
 
     <!-- Skills Section -->
-    <section id="skills">
+    <section class="skills-section" id="skills">
         <div class="container">
-            <div class="section-header fade-up">
-                <div class="section-tag">Expertise</div>
-                <h2 class="section-title">Skills & Technologies</h2>
-                <p class="section-description">
-                    Continuously learning and expanding my technical toolkit
-                </p>
-            </div>
-
+            <h2 class="section-title">Skills & Expertise</h2>
             <div class="skills-grid">
-                <div class="skill-category fade-up">
-                    <div class="skill-header">
-                        <div class="skill-icon"><i class="fas fa-bolt"></i></div>
-                        <h3 class="skill-title">Energy Engineering</h3>
+                <div class="skill-category">
+                    <div class="category-header">
+                        <i class="fas fa-bolt"></i>
+                        <h3>Energy Engineering</h3>
                     </div>
                     <div class="skill-items">
-                        <span class="tag">Solar PV Design</span>
-                        <span class="tag">Helioscope</span>
-                        <span class="tag">MATLAB</span>
-                        <span class="tag">AutoCAD</span>
-                        <span class="tag">eQUEST</span>
-                        <span class="tag">Quality Engineering</span>
-                        <span class="tag">LEAN Six Sigma</span>
-                        <span class="tag">FMEA</span>
+                        <span>Solar PV Design</span>
+                        <span>Helioscope</span>
+                        <span>MATLAB</span>
+                        <span>AutoCAD</span>
+                        <span>eQUEST</span>
+                        <span>Quality Engineering</span>
+                        <span>LEAN Six Sigma</span>
+                        <span>FMEA</span>
+                        <span>Root Cause Analysis</span>
                     </div>
                 </div>
 
-                <div class="skill-category fade-up">
-                    <div class="skill-header">
-                        <div class="skill-icon"><i class="fas fa-code"></i></div>
-                        <h3 class="skill-title">Programming (Learning)</h3>
+                <div class="skill-category">
+                    <div class="category-header">
+                        <i class="fas fa-code"></i>
+                        <h3>Programming</h3>
                     </div>
                     <div class="skill-items">
-                        <span class="tag">Python</span>
-                        <span class="tag">JavaScript</span>
-                        <span class="tag">React</span>
-                        <span class="tag">Node.js</span>
-                        <span class="tag">HTML/CSS</span>
-                        <span class="tag">Git</span>
+                        <span>Python</span>
+                        <span>JavaScript</span>
+                        <span>React</span>
+                        <span>Node.js</span>
+                        <span>HTML/CSS</span>
+                        <span>Git</span>
                     </div>
                 </div>
 
-                <div class="skill-category fade-up">
-                    <div class="skill-header">
-                        <div class="skill-icon"><i class="fas fa-brain"></i></div>
-                        <h3 class="skill-title">AI & ML (Exploring)</h3>
+                <div class="skill-category">
+                    <div class="category-header">
+                        <i class="fas fa-tools"></i>
+                        <h3>Tools & Software</h3>
                     </div>
                     <div class="skill-items">
-                        <span class="tag">TensorFlow</span>
-                        <span class="tag">Machine Learning</span>
-                        <span class="tag">Computer Vision</span>
-                        <span class="tag">Pattern Recognition</span>
-                    </div>
-                </div>
-
-                <div class="skill-category fade-up">
-                    <div class="skill-header">
-                        <div class="skill-icon"><i class="fas fa-database"></i></div>
-                        <h3 class="skill-title">Tools & Platforms</h3>
-                    </div>
-                    <div class="skill-items">
-                        <span class="tag">PostgreSQL</span>
-                        <span class="tag">Docker</span>
-                        <span class="tag">Microsoft Office</span>
-                        <span class="tag">LTSpice</span>
+                        <span>Microsoft Office</span>
+                        <span>LTSpice</span>
+                        <span>Control System Designer</span>
+                        <span>PLC Ladder Logic</span>
                     </div>
                 </div>
             </div>
@@ -341,50 +338,37 @@
     </section>
 
     <!-- Contact Section -->
-    <section id="contact">
+    <section class="contact-section" id="contact">
         <div class="container">
-            <div class="section-header fade-up">
-                <div class="section-tag">Let's Connect</div>
-                <h2 class="section-title">Get in Touch</h2>
-                <p class="section-description">
-                    Open to learning opportunities, collaborations, and meaningful conversations
-                </p>
-            </div>
-
             <div class="contact-content">
-                <p class="contact-text fade-up">
-                    I'm eager to learn, ask questions, and grow in energy engineering and technology. 
-                    Whether you have advice, opportunities, or just want to connect about renewable energy 
-                    or AI, I'd love to hear from you!
-                </p>
-
-                <div class="contact-methods">
-                    <div class="contact-card fade-up">
-                        <div class="contact-icon"><i class="fas fa-envelope"></i></div>
-                        <h3 class="contact-label">Email</h3>
-                        <p class="contact-value">tariqanwar917@gmail.com</p>
+                <div class="contact-info">
+                    <h2 class="section-title">Let's Connect</h2>
+                    <p>I'm eager to learn, collaborate, and contribute to meaningful projects in energy engineering 
+                    and technology. Feel free to reach out!</p>
+                    
+                    <div class="contact-details">
+                        <div class="contact-item">
+                            <i class="fas fa-envelope"></i>
+                            <div>
+                                <h4>Email</h4>
+                                <a href="mailto:tariqanwar917@gmail.com">tariqanwar917@gmail.com</a>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <div>
+                                <h4>Location</h4>
+                                <p>Lowell, MA, USA</p>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fab fa-linkedin"></i>
+                            <div>
+                                <h4>LinkedIn</h4>
+                                <a href="https://www.linkedin.com/in/tariqanwar2000" target="_blank">linkedin.com/in/tariqanwar2000</a>
+                            </div>
+                        </div>
                     </div>
-
-                    <div class="contact-card fade-up">
-                        <div class="contact-icon"><i class="fas fa-map-marker-alt"></i></div>
-                        <h3 class="contact-label">Location</h3>
-                        <p class="contact-value">Lowell, MA, USA</p>
-                    </div>
-
-                    <div class="contact-card fade-up">
-                        <div class="contact-icon"><i class="fas fa-graduation-cap"></i></div>
-                        <h3 class="contact-label">Education</h3>
-                        <p class="contact-value">MS Energy Engineering<br>UMass Lowell</p>
-                    </div>
-                </div>
-
-                <div class="cta-group" style="justify-content: center;">
-                    <a href="mailto:tariqanwar917@gmail.com" class="btn btn-primary">
-                        <i class="fas fa-paper-plane"></i> Send Email
-                    </a>
-                    <a href="https://studentuml-my.sharepoint.com/:b:/g/personal/tariqanwar_melethil_student_uml_edu/ETSkRE_CRQ9DrcGG1F4EMBwB9fqGXwblvqqlhpag2a1LQQ?e=YLoWvH" class="btn btn-outline" target="_blank">
-                        <i class="fas fa-file-download"></i> Download CV
-                    </a>
                 </div>
             </div>
         </div>
@@ -392,24 +376,14 @@
 
     <!-- Footer -->
     <footer>
-        <div class="footer-content">
-            <div class="social-links">
-                <a href="https://github.com/Tariq728" class="social-link" target="_blank">
-                    <i class="fab fa-github"></i>
-                </a>
-                <a href="https://www.linkedin.com/in/tariqanwar2000" class="social-link" target="_blank">
-                    <i class="fab fa-linkedin"></i>
-                </a>
-                <a href="mailto:tariqanwar917@gmail.com" class="social-link">
-                    <i class="fas fa-envelope"></i>
-                </a>
-            </div>
-            <p>© 2025 Tariq Anwar. Built with curiosity and passion for learning.</p>
+        <div class="container">
+            <p>&copy; 2025 Tariq Anwar. All rights reserved.</p>
+            <p>Energy Engineer | Master's Candidate at UMass Lowell</p>
         </div>
     </footer>
 
     <script>
-        // Smooth scroll
+        // Smooth scrolling
         document.querySelectorAll('a[href^="#"]').forEach(anchor => {
             anchor.addEventListener('click', function (e) {
                 e.preventDefault();
@@ -420,33 +394,25 @@
             });
         });
 
-        // Scroll animations
-        const observerOptions = {
-            threshold: 0.1,
-            rootMargin: '0px 0px -50px 0px'
-        };
-
-        const observer = new IntersectionObserver((entries) => {
-            entries.forEach(entry => {
-                if (entry.isIntersecting) {
-                    entry.target.classList.add('visible');
-                }
-            });
-        }, observerOptions);
-
-        document.querySelectorAll('.fade-up').forEach(el => {
-            observer.observe(el);
-        });
-
         // Mobile menu toggle
         const mobileToggle = document.querySelector('.mobile-toggle');
         const navMenu = document.querySelector('.nav-menu');
         
         if (mobileToggle) {
             mobileToggle.addEventListener('click', () => {
-                navMenu.style.display = navMenu.style.display === 'flex' ? 'none' : 'flex';
+                navMenu.classList.toggle('active');
             });
         }
+
+        // Navbar background on scroll
+        window.addEventListener('scroll', () => {
+            const navbar = document.querySelector('.navbar');
+            if (window.scrollY > 100) {
+                navbar.classList.add('scrolled');
+            } else {
+                navbar.classList.remove('scrolled');
+            }
+        });
     </script>
 </body>
 </html>
